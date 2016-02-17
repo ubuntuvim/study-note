@@ -1,2 +1,3 @@
-# study-note
-Note taking notes on daily learning.
+# 学习笔记
+
+平常看博客，看书的笔记。
