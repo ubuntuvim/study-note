@@ -28,7 +28,7 @@ var Book = function(id, bookname, price) {
 ```javascript
 // 私有属性与私有方法，特权方法，对象共有属性和对象共有方法，构造器
 var Book = function(id, name, price) {
-  //
+  // 
 }
 
   
