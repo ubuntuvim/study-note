@@ -35,7 +35,6 @@ public class LoginAction implements Action {
 
 **注意：** 要使用框架就必须实现`Action`类，并且实现方法`execute`，在此方法中调用M层处理，最后返回与配置对应的视图名。
 
-
 #### JSP页面
 
 这三个JSP页面就不再贴出来了，请直接到[github项目myMVC](https://github.com/ubuntuvim/myMVC/tree/master/WebContent)直接获取吧。
@@ -56,3 +55,10 @@ public class LoginAction implements Action {
 ![用户名和密码输入的不是admin](http://7xnrhh.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160303175715.png)
 
 可以看到地址栏为：`http://localhost:8080/snails/fail.jsp`因为此跳转设置为重定向（`<result name="fail" redirect="true">fail.jsp</result>`）。
+
+### 小结
+
+从结果验证上看，自己开发的MVC框架实现了类似于struts框架的功能，虽然没有struts那么强大，但是起码实现了视图层与控制层的分离，如果还有另外的业务我们只需要再添加一个实现`Action`类的控制器，然后再配置控制器。业务的跳转只需要在配置文件中配置即可，不需要再在Java代码中编写跳转。
+
+
+项目完整代码请看[MyMVC](https://github.com/ubuntuvim/myMVC)，欢迎fork学习，如果你觉得对你有帮助给我点个赞吧，当然也欢迎给我提意见（email:1527254027@qq.com，chendequanroob@gmail.com）。
