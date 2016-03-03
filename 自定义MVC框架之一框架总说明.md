@@ -28,7 +28,7 @@
 
 框架的介绍从`Action`的配置开始，因为本框架很大程度上都是围绕着这个配置文件开展的。
 
-1. [Action配置文件的定义]()
+1. [Action配置文件的定义](https://github.com/ubuntuvim/study-note/blob/master/%E8%87%AA%E5%AE%9A%E4%B9%89MVC%E6%A1%86%E6%9E%B6%E4%B9%8B%E4%B8%80action%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%AE%9A%E4%B9%89.md)
 2. [Action常量、接口定义]()
 3. [ActionMapping定义]()
 4. [ActionMappingManager定义]()
