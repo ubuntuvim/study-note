@@ -34,3 +34,25 @@ public class LoginAction implements Action {
 ```
 
 **注意：** 要使用框架就必须实现`Action`类，并且实现方法`execute`，在此方法中调用M层处理，最后返回与配置对应的视图名。
+
+
+#### JSP页面
+
+这三个JSP页面就不再贴出来了，请直接到[github项目myMVC](https://github.com/ubuntuvim/myMVC/tree/master/WebContent)直接获取吧。
+
+#### 验证
+
+启动项目，输入[http://localhost:8080/snails/](http://localhost:8080/snails/)进入到登录页面。
+用户名和密码都是输入admin，点击提交，可以看到了转到`success.jsp`。
+
+**登录成功**
+
+![用户名和密码输入admin](http://7xnrhh.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160303175614.png)
+
+![登录成功](http://7xnrhh.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160303175655.png)
+
+**登录失败**
+
+![用户名和密码输入的不是admin](http://7xnrhh.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160303175715.png)
+
+可以看到地址栏为：`http://localhost:8080/snails/fail.jsp`因为此跳转设置为重定向（`<result name="fail" redirect="true">fail.jsp</result>`）。
