@@ -1,0 +1,1 @@
+[http://qun.qq.com/join.html](http://qun.qq.com/join.html)
